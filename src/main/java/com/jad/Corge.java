@@ -8,7 +8,6 @@ public class Corge {
 
     public Foo getFoo() {
         return foo;
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public void setFoo(final Foo foo) {

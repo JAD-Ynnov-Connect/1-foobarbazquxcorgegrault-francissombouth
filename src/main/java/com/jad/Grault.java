@@ -8,6 +8,5 @@ public class Grault {
     }
     public Foo getFoo() {
         return foo;
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 }
