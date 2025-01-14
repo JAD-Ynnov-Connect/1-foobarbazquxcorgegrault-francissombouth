@@ -1,18 +1,18 @@
 package com.jad;
-
+import java.util.ArrayList;
 import java.util.List;
 
 public class Foo {
     private Bar bar;
     private List<Baz> bazs;
     private Qux qux;
-    private Corage corge;
+    private Corge corge;
     private List<Grault> graults;
 
     public Foo(final Bar bar) {
         this.bar=bar;
         this.bazs= new ArrayList<>();
-        this.graults=new ArrayList<>()
+        this.graults=new ArrayList<>();
     }
 
     public Bar getBar() {
@@ -41,7 +41,7 @@ public class Foo {
     }
 
     public Corge getCorge() {
-        return corge
+        return corge;
     }
 
     public void setCorge(final Corge firstCorge) {
